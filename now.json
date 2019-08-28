@@ -1,0 +1,12 @@
+{
+    "builds": [
+        {
+            "src": "gateway/*",
+            "use": "@now/python"
+        },
+        {
+            "src": "api/*",
+            "use": "@now/python"
+        }
+    ]
+}
